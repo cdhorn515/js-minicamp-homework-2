@@ -139,19 +139,13 @@ function wordsToSentence(words) {
 }
 
 function contains(arr, item) {
-  var containsItem = 0;
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] === item) {
-      containsItem++ ;
-    } 
-}
-    if (containsItem > 0) {
       return true;
-    } else {
-      return false;
     }
-  
-  //check to see if item is inside of arr
+  } return false; 
+
+  //check to  see if item is inside of arr
   //return true if it is, otherwise return false
 }
 
